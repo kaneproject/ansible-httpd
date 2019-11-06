@@ -1,0 +1,6 @@
+---
+# handlers file for curso.apache_httpd
+- name: Nombre obligatorio
+  service:
+    name: httpd
+    state: started
